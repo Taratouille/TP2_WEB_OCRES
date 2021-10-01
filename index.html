@@ -20,12 +20,16 @@
 					<input type="search" required class="search">
 					<input type="submit" name="submit" value="Rechercher" class="submit">
 				</form>
-				<div class="user">
+				<button class="user btn dropdown-toggle dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown">
 				    <a href="#">Luke Chesser</a>
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="#">Edit Profil</a>
+					<a class="dropdown-item" href="#">Logout</a>
 				</div>
 			</div>
 		</header>
-		<aside class="w-25"> <!--NOUVEAU-->
+		<aside class="w-25 d-none d-lg-block"> <!--NOUVEAU-->
 			<h3>Browse</h3>
 			<nav class="browse">
 				<ul class="main">
@@ -55,14 +59,14 @@
 						<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
 					</div>
 				</div>
-				<div class="stats-links">
-					<section class="stats">
+				<div class="stats-links row">
+					<section class="stats col-md-8">
 						<span>2 Playlists</span>
 						<span>4 Reviews</span>
 						<span>6 Followers</span>
 						<span>13 Following</span>
 					</section>
-					<div class="links">
+					<div class="links col-sm-12 col-md-4">
 						<div>
 							<a href="#">Collection</a>
 							<a href="#">History</a>
