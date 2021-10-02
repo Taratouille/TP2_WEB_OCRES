@@ -51,7 +51,7 @@ main article {
     display: inline-block;
 }
 
-h3 {
+aside h3 {
     color: #b8c3c9;
     text-transform: uppercase;
     font-size: 1em;
@@ -83,7 +83,7 @@ nav ul li:last-child {
     margin-bottom: 30px;
 }
 
-h1 {
+.name h1 {
     color: #4b5c66;
     font-size: 1.5em;
     font-weight: normal;
@@ -92,7 +92,7 @@ h1 {
 
 .name p { 
     color: #a0aab1;
-    font-size: 0.75em;
+    font-size: 0.7em;
 }
 
 .name p img { 
@@ -122,8 +122,8 @@ h1 {
     color: #4b5c66;
 }
 
-h2 {
-    font-size: 1.25em;
+.row h2 {
+    font-size: 1.5em;
     font-weight: normal;
     color: #4b5c66;
 }
